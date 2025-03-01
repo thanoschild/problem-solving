@@ -35,7 +35,7 @@
 </div>
 
 ## Solution
-### c++
+### C++
 
 ```cpp
 class Solution {
@@ -52,7 +52,7 @@ public:
 };
 ```
 
-##Java
+## Java
 ```java
 class Solution {
     public int maxSubArray(int[] nums) {
