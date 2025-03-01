@@ -51,3 +51,18 @@ public:
     }
 };
 ```
+
+##Java
+```java
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int ans = Integer.MIN_VALUE, currSum = 0;
+        for(int it : nums) {
+            currSum = Math.max(0, currSum) + it;
+            ans = Math.max(ans, currSum);
+        }
+
+        return ans;
+    }
+}
+```
