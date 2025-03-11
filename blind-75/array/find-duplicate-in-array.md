@@ -4,36 +4,25 @@ If there are multiple possible answers ( like in the sample case ), output any o
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> arr = [3, 4, 1, 4, 2]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The element 4 occurs at the indices 1 and 3.
+</pre>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [3, 4, 1, 4, 2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">4</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The element 1 occurs at the indices 0 and 3.</p>
-</div>
 
 <p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> arr = [1, 2, 3]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> All elements are distinct.
+</pre>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [1, 2, 3]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">-1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>All elements are distinct.</p>
-</div>
 
 <p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> arr = [3, 4, 1, 4, 1]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The element 1 occurs at the indices 2 and 4.
+</pre>
 
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">arr = [3, 4, 1, 4, 1]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-</div>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
